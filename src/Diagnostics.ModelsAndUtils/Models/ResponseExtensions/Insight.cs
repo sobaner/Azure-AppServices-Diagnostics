@@ -158,7 +158,7 @@ namespace Diagnostics.ModelsAndUtils.Models.ResponseExtensions
         /// Adds a single insight to response
         /// </summary>
         /// <param name="response">Response object.</param>
-        /// <param name="status">Enum reprensenting insight level.</param>
+        /// <param name="status">Enum representing insight level.</param>
         /// <param name="message">Insight Message.</param>
         /// <param name="body">Insights Body.</param>
         /// <example> 

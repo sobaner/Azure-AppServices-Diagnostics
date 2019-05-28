@@ -481,7 +481,7 @@ namespace Diagnostics.DataProviders
         {
             Exception dataProviderException = null;
             DateTime startTime = DateTime.UtcNow, endTime;
-            CancellationTokenRegistration cTokenRegistration;
+            CancellationTokenRegistration cTokenRegistration = default(CancellationTokenRegistration);
 
             try
             {

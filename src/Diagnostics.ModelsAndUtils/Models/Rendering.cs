@@ -263,8 +263,12 @@ namespace Diagnostics.ModelsAndUtils.Models
         ///<summary>
         /// Data Rendered as AppInsights enablement in detector
         ///</summary>
-        AppInsightEnablement
+        AppInsightEnablement,
 
+        /// <summary>
+        /// Data Rendered as Network Graph
+        /// </summary>
+        NetworkGraph
     }
 
     /// <summary>
